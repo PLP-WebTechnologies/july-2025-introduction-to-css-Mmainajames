@@ -1,0 +1,67 @@
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background: #004466;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Intro section */
+.intro {
+    background: #e0f7fa;
+    border: 2px solid #0097a7;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Cards section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    background: white;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background: #004466;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0077b6;
+}
+
+/* Footer */
+footer {
+    background: #004466;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
